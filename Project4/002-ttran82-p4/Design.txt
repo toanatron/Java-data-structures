@@ -1,0 +1,17 @@
+-SymbolTable Structure-
+for this class I used a Hashmap to implement the table
+
+-Sequence Structure-
+I implemented the AVL tree provided by Weiss' code
+
+-PriorityQueue Structure-
+I used a node that contained T data and int priority to keep track of the pair given as parameter
+then I used a Node<T> [] to hold all the nodes
+
+-For reference sources I used Weiss' AVL tree class and priorityqueue class
+
+-To implement the countNoSmallerThan method, I traversed through the tree using recursion and compared the data
+v with each node's v and if it was greater than or equal to v I would return 1 keep traversing until it's a leave node.
+
+
+
